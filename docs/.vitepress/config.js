@@ -46,11 +46,11 @@ export default {
           items: [
             {
               text: '知识回顾-数据的表达 1',
-              link: '/frontend/javascript/02.知识回顾-数据的表达.md',
+              link: '/frontend/javascript/02.知识回顾-数据的表达',
             },
             {
               text: '知识回顾-数据的表达 2',
-              link: '/frontend/javascript/03.知识回顾-数据的表达.md',
+              link: '/frontend/javascript/03.知识回顾-数据的表达',
             },
             {
               text: '知识回顾-数据的表达 3',
@@ -62,7 +62,7 @@ export default {
             },
             {
               text: '知识回顾-流程的切割',
-              link: '/frontend/javascript/07.知识回顾-流程的切割.md',
+              link: '/frontend/javascript/07.知识回顾-流程的切割',
             },
             {
               text: '核心概念-数据的作用域',
@@ -70,15 +70,27 @@ export default {
             },
             {
               text: '核心概念-全局对象',
-              link: '/frontend/javascript/10.核心概念-全局对象.md',
+              link: '/frontend/javascript/10.核心概念-全局对象',
             },
             {
               text: '核心概念-构造函数',
-              link: '/frontend/javascript/11.核心概念-构造函数.md',
+              link: '/frontend/javascript/11.核心概念-构造函数',
             },
             {
               text: '核心概念-原型',
-              link: '/frontend/javascript/12.核心概念-原型.md',
+              link: '/frontend/javascript/12.核心概念-原型',
+            },
+            {
+              text: '核心概念-This',
+              link: '/frontend/javascript/13.核心概念-This',
+            },
+            {
+              text: '核心概念-原型链',
+              link: '/frontend/javascript/14.核心概念-原型链',
+            },
+            {
+              text: '核心概念-继承',
+              link: '/frontend/javascript/15.核心概念-继承',
             },
           ],
         },
