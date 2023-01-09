@@ -1,33 +1,43 @@
-# Hello VitePress
+---
+layout: home
 
-::: tip
-This is a tip
-:::
+hero:
+  name: duone class study boook
+  text:
+  tagline: Record the process of learning front-end development
+  image:
+    src: /logo.png
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /frontend/basic/
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/ustbmz/notes
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
+features:
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+  - icon:
+      src: /cool-feature-icon.svg
+    title: Another cool feature
+    details: Lorem ipsum...
+  - icon:
+      dark: /dark-feature-icon.svg
+      light: /light-feature-icon.svg
+    title: Another cool feature
+    details: Lorem ipsum...
+---
+
+<style>
+  :root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ff0000, #000000);
+ 
 }
-```
-
-```js{1,4,6-7}
-export default { // Highlighted
-  data () {
-    return {
-      msg: `Highlighted!
-      This line isn't highlighted,
-      but this and the next 2 are.`,
-      motd: 'VitePress is awesome',
-      lorem: 'ipsum',
-    }
+ .clip{
+    font-size:38px;
   }
-}
-```
-
-
-[Home](/) <!-- 跳转到根目录的index.md -->
-[basic](/basic) <!-- 跳转到 foo 文件夹的 index.html-->
+</style>
